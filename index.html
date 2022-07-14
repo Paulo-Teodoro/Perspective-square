@@ -25,7 +25,7 @@
           <input v-model="rotateZ" type="range" min="-180" max="180" />
 
           <button type="button" @click.prevent="reset">Reset</button>
-          <button type="button">Copy</button>
+          <button type="button" @click.prevent="copy">Copy</button>
         </div>
       </section>
       <section class="output">
